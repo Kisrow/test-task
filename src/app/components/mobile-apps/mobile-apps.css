@@ -1,0 +1,40 @@
+.apps {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  width: 284px;
+  margin: 78px 0 0;
+  padding: 0;
+}
+
+.apps li {
+  list-style: none;
+  width: 132px;
+  background-color: rgba(48, 45, 45, 0.34);
+  border-radius: 12px;
+  margin: 0;
+  padding: 8px 12px;
+}
+
+.apps__text {
+  display: inline-block;
+  margin-left: 8px;
+}
+
+.apps__paragraph {
+  color: rgba(242, 242, 242, 0.4);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  margin: 0;
+  padding: 0;
+}
+
+.apps__store {
+  color: rgba(242, 242, 242, 0.4);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+  padding: 0;
+}

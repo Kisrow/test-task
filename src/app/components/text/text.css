@@ -1,0 +1,26 @@
+.text {
+  max-width: 1008px;
+  margin-bottom: 44px;
+}
+
+.text__title {
+  color: #F2F2F2;
+  font-size: 84px;
+  font-weight: 700;
+  line-height: 100.8px;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
+.text__title span {
+  background-image: linear-gradient(
+    to right,
+    rgba(124, 111, 207, 0.97),
+    rgba(116, 174, 170, 0.95),
+    rgba(111, 207, 151, 1)
+  );
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
